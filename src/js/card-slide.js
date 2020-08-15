@@ -320,7 +320,7 @@ class CardSlide {
         if ( this.opts.childrenTouchStop ){
           event.stopPropagation();
         }
-        if ( this.opts.childrenTouchPrevent ){
+        if ( !isMob && this.opts.childrenTouchPrevent ){
           event.preventDefault();
         }
       },
