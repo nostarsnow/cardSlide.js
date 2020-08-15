@@ -1,0 +1,1 @@
+"use strict";var card=new CardSlide(document.querySelector(".card-slide-box"),{autoplay:0,gutter:20,speed:350,dragRelation:"rtl",dragPrevable:!1,swiperStart:function(e){var t=this;t.setStyle(t.$slides[e],{background:"#fff"}),setTimeout(function(){t.setStyle(t.$slides[e],{background:""})},150)}});

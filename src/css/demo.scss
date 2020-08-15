@@ -1,0 +1,29 @@
+@import "./base/base.scss";
+body {
+  background-color: #ee215e;
+}
+#demo {
+  width: 400px;
+  height: 200px;
+  margin: 40px auto;
+}
+.card-slide {
+  width: 360px;
+  height: 135px;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border-radius: 3px;
+  background: #fff;
+  &[data-slide-index="2"] {
+    background: blue;
+  }
+  &[data-slide-index="3"] {
+    background: green;
+  }
+  &.card-slide-active{
+    background: #fff;
+  }
+  img{
+    width: 100%;
+  }
+}
