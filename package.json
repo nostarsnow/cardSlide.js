@@ -1,5 +1,5 @@
 {
-  "name": "@nostar/CardSlide",
+  "name": "@nostar/card-slide",
   "version": "0.0.2",
   "description": "卡片切换，超进化组件S",
   "main": "dist/js/card-slide.js",

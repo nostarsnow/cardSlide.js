@@ -9,3 +9,6 @@ dist/css/demo.css
 dist/img
 dist/index.html
 dist/js/demo.js
+config.json
+gulpfile.js
+LICENSE

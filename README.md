@@ -7,7 +7,7 @@
 ## How to use
 
 ```bash
-npm i @nostar/CardSlide -S
+npm i @nostar/card-slide -S
 ```
 
 ```html
