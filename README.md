@@ -27,8 +27,9 @@ npm i @nostar/card-slide -S
 ```
 
 ```js
-import CardSlide from "@nostar/CardSlide";
-var card = new CardSlide(document.querySelector(".card-slide-box"), {
+import CardSlide from "@nostar/card-slide";
+import "@nostar/card-slide/dist/css/card-slide.css";
+new CardSlide(document.querySelector(".card-slide-box"), {
   autoplay: 0,
   gutter: 20,
   speed: 350,
