@@ -102,6 +102,12 @@ new CardSlide(document.querySelector(".card-slide-box"), {
 	<td>是否支持拖拽向前翻页</td>
 </tr>
 <tr>
+	<td>childrenTouchStop</td>
+	<td>boolean</td>
+	<td>false</td>
+	<td>禁止事件冒泡</td>
+</tr>
+<tr>
 	<td>dragNextable</td>
 	<td>boolean</td>
 	<td>true</td>

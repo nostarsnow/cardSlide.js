@@ -9,6 +9,7 @@ class CardSlide {
       dragDistance: 50,
       dragNextable: true,
       dragPrevable: true,
+      childrenTouchStop: false,
       nextBtn: ".card-slide-next",
       prevBtn: ".card-slide-prev",
       direction: "horizontal",
@@ -315,8 +316,10 @@ class CardSlide {
           x: event.pageX || event.touches[0].pageX,
           y: event.pageY || event.touches[0].pageY,
         };
-        event.stopPropagation();
-        event.preventDefault();
+        if ( this.opts.childrenTouchStop ){
+          event.stopPropagation();
+          event.preventDefault();
+        }
       },
       false
     );
