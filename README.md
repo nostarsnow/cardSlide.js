@@ -108,6 +108,12 @@ new CardSlide(document.querySelector(".card-slide-box"), {
 	<td>禁止事件冒泡</td>
 </tr>
 <tr>
+	<td>childrenTouchPrevent</td>
+	<td>boolean</td>
+	<td>true</td>
+	<td>禁止事件浏览器默认行为</td>
+</tr>
+<tr>
 	<td>dragNextable</td>
 	<td>boolean</td>
 	<td>true</td>
