@@ -1,6 +1,6 @@
 {
-  "name": "ns-card-slide",
-  "version": "0.0.1",
+  "name": "@nostar/CardSlide",
+  "version": "0.0.2",
   "description": "卡片切换，超进化组件S",
   "main": "dist/js/card-slide.js",
   "scripts": {
@@ -39,5 +39,9 @@
     "imagemin-pngquant": "^5.0.0",
     "node-sass": "^4.9.3",
     "proxy-middleware": "^0.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nostarsnow/cardSlide.js"
   }
 }

@@ -1,0 +1,11 @@
+.git
+.github
+test
+node_modules
+scripts
+dev
+src
+dist/css/demo.css
+dist/img
+dist/index.html
+dist/js/demo.js

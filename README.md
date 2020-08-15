@@ -1,8 +1,52 @@
-# CardSlide.js 卡片切换，超进化组件S
+# CardSlide.js 卡片切换，超进化组件 S
 
 ## Demo
 
 [在线预览：Demo](https://nostarsnow.github.io/cardSlide.js/dist/)
+
+## How to use
+
+```bash
+npm i @nostar/CardSlide -S
+```
+
+```html
+<div class="card-slide-box">
+  <div class="card-slide-wrapper">
+    <div class="card-slide">
+      1
+    </div>
+    <div class="card-slide">
+      2
+    </div>
+    <div class="card-slide">
+      3
+    </div>
+  </div>
+</div>
+```
+
+```js
+import CardSlide from "@nostar/CardSlide";
+var card = new CardSlide(document.querySelector(".card-slide-box"), {
+  autoplay: 0,
+  gutter: 20,
+  speed: 350,
+  dragRelation: "rtl",
+  dragPrevable: false,
+  swiperStart: function (activeIndex) {
+    let _this = this;
+    _this.setStyle(_this.$slides[activeIndex], {
+      background: "#fff",
+    });
+    setTimeout(function () {
+      _this.setStyle(_this.$slides[activeIndex], {
+        background: "",
+      });
+    }, 150);
+  },
+});
+```
 
 ## API
 
